@@ -1,6 +1,6 @@
 function doubleIt(number){
     const doubled = number * 2;
-    console.log(number,doubled);
+    console.log(doubled);
 }
 console.log('I will call the function');
 doubleIt(15);

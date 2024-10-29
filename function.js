@@ -1,4 +1,4 @@
-const number = 45;
+
 
 function fanoffKor(){
     console.log('bosa thaka oda dara');
