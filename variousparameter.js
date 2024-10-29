@@ -2,24 +2,24 @@
  * for a given string tell me whether it has even number of characters or not 
  * 
  */
-function evenSizedString(str){
-    const size = str.length;
-    if(size%2===0){
-        console.log('even size');
-        return true;
+// function evenSizedString(str){
+//     const size = str.length;
+//     if(size%2===0){
+//         console.log('even size');
+//         return true;
      
-    }
-    else{
-        console.log('odd size');
-        return false;
+//     }
+//     else{
+//         console.log('odd size');
+//         return false;
       
-    }
-    console.log(size);
-    console.log(str);
-}
+//     }
+//     console.log(size);
+//     console.log(str);
+// }
 
-evenSizedString('Dhaka');
-evenSizedString('Daka');
+// evenSizedString('Dhaka');
+// evenSizedString('Daka');
 
 
 
@@ -35,14 +35,35 @@ evenSizedString('Daka');
 //     }
 // }
 
-//console.log(doubleOrTriple(5,true));
-//console.log(doubleOrTriple(5,false));
+// //console.log(doubleOrTriple(5,true));
+// console.log(doubleOrTriple(5,false));
 
 
-
-// function numberOfElements(numbers){
-//     const len = numbers.length;
-//     return len;
+// function count_zero(number,size){
+//    const len = number.length;
+//    console.log('the length is:',len);
+    
+//    let sum =0;
+//    for(const num of number){
+//       console.log(num);
+//       sum = sum + num;
+//    }
+//    //console.log('the total is:',sum);
+//    return sum;
 // }
 
-// numberOfElements([12,43,53,2,4,5]);
+// let sum=count_zero ([1,2,3,4,5]);
+// console.log('the total is:',sum);
+
+// //console.log('the average is:',average);
+
+
+
+function count_zero(bianary){
+    console.log(bianary);
+
+    const biana = bianary.count(0);
+    console.log(biana);
+    return biana;
+}
+count_zero(10001010101);
